@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ExcangeMoney</string>
+    <string name="leftMoney">leftMoney</string>
+    <string name="rightMoney">rightMoney</string>
+</resources>

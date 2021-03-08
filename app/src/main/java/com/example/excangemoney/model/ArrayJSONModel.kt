@@ -10,24 +10,24 @@ data class ArrayJSONModel(
     // @JsonProperty(" ") for the Jackson converter
 
     @SerializedName("ID")
-    private var iD: String?,
+    var iD: String?,
 
     @SerializedName("NumCode")
-    private var numCode: String,
+    var numCode: String,
 
     @SerializedName("CharCode")
-    private var charCode: String,
+    var charCode: String,
 
     @SerializedName("Nominal")
-    private var nominal: Int,
+    var nominal: Int,
 
     @SerializedName("Name")
-    private var name: String,
+    var name: String,
 
     @SerializedName("Value")
-    private var value: Double,
+    var value: Double,
 
     @SerializedName("Previous")
-    private var previous: Double,
+    var previous: Double,
 
     )

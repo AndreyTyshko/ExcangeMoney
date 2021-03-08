@@ -3,7 +3,7 @@ package com.example.excangemoney
 import com.google.gson.annotations.SerializedName
 
 
- class Response {
+ class MoneyResponse {
      @SerializedName("ID")
      private var iD: String? = null
 

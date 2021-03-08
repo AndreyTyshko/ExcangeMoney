@@ -1,6 +1,5 @@
 package com.example.excangemoney.viewModel
 
-import android.icu.util.ULocale
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.example.excangemoney.model.RecyclerData
